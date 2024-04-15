@@ -14,6 +14,7 @@ class CustomerId extends Controller
         //$callDetails = DB::select("SELECT * FROM calldetails  JOIN customer ON callDetails.custId = customer.id WHERE customer.id = $id");
         $callDetails = DB::table('callDetails')
             -> join('customer', 'callDetails.custId', '=' , 'customer.id')
+            ->where('customer.id',$id)
             -> paginate(2);
         return view('callDetails', compact('callDetails', 'id'));
     }
