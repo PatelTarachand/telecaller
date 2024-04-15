@@ -54,36 +54,36 @@
             <div class="menu-sidebar__content js-scrollbar1">
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
-                        <li class=" {{ $module=='dashboard'?'active':''; }}">
+                        <li>
                             {{-- <i class="far fa-check-square"></i> --}}
                             <a  href="{{ Route('dashboard') }}">
                                 <i class="fa-solid fa-circle-dot"></i>Dashboard</a>
                         </li>
-                        <li class=" {{ $module=='customerForm'?'active':''; }}">
+                        <li>
                             <a href="{{ Route('customer.create') }}">
                                 <i class="fa-solid fa-circle-dot"></i>Customer Forms</a>
                         </li>
-                        <li class=" {{ $module=='customerDetails'?'active':''; }}">
+                        <li>
                             <a href="{{ Route('customer.index') }}">
                                 <i class="fa-solid fa-circle-dot"></i>Customer Details</a>
                         </li>
-                        <li class=" {{ $module=='area'?'active':''; }}">
+                        <li>
                             <a href="{{ Route('area.create') }}">
                                 <i class="fa-solid fa-circle-dot"></i>Area </a>
                         </li>
-                        <li class=" {{ $module=='district'?'active':''; }}">
+                        <li>
                             <a href="{{ Route('district.create') }}">
                                 <i class="fa-solid fa-circle-dot"></i>District </a>
                         </li>
-                        <li class=" {{ $module=='custCate'?'active':''; }}">
+                        <li>
                             <a href="{{ Route('custCate.create') }}"> 
                             <i class="fa-solid fa-circle-dot"></i>Customer Category</a>
                         </li>
-                        <li class=" {{ $module=='custType'?'active':''; }}">
+                        <li>
                             <a href="{{ Route('custType.create') }}">
                                 <i class="fa-solid fa-circle-dot"></i>Customer Type Forms</a>
                         </li>
-                        <li class=" {{ $module=='allCall'?'active':''; }}">
+                        <li>
                             <a href="{{ Route('allCall.show') }}">
                                 <i class="fa-solid fa-circle-dot"></i>All Call Details</a>
                         </li>
