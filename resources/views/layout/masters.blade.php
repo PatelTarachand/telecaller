@@ -132,7 +132,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="copyright">
-                            <p>Copyright © {{ date('d/M/Y') }} | All rights reserved. by Telecaller</a>.</p>
+                            <p>Copyright © {{ date('Y') }} | All rights reserved. by Telecaller</a>.</p>
                         </div>
                     </div>
                 </div>
